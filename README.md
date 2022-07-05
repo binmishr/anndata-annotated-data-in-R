@@ -1,5 +1,8 @@
 # anndata-annotated-data-in-R
 
+The details of the codeset and plots are included in the attached Microsoft Word Document (.docx) file in this repository. 
+You need to view the file in "Read Mode" to see the contents properly after downloading the same.
+
 anndata is a commonly used Python package for keeping track of data and learned annotations, and can be used to read from and write to the h5ad file format. It is also the main data format used in the scanpy python package (Wolf, Angerer, and Theis 2018).
 
 However, using scanpy/anndata in R can be a major hassle. When trying to read an h5ad file, R users could approach this problem in one of two ways. A) You could read in the file manually (since it’s an H5 file), but this involves a lot of manual work and a lot of understanding on how the h5ad and H5 file formats work (also, expect major headaches from cryptic hdf5r bugs). Or B) interact with scanpy and anndata through reticulate, but run into issues converting some of the python objects into R.
